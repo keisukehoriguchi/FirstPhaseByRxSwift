@@ -15,11 +15,15 @@
 		0415A1F526A5540700E5C2CB /* FirstPhaseByRxSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0415A1F426A5540700E5C2CB /* FirstPhaseByRxSwiftTests.swift */; };
 		0415A20026A5540700E5C2CB /* FirstPhaseByRxSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0415A1FF26A5540700E5C2CB /* FirstPhaseByRxSwiftUITests.swift */; };
 		0415A20E26A5551600E5C2CB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0415A20D26A5551600E5C2CB /* ViewController.xib */; };
-		0415A21526A5579300E5C2CB /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0415A21426A5579300E5C2CB /* MainTabViewController.swift */; };
-		0415A21726A557CB00E5C2CB /* MainTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0415A21626A557CB00E5C2CB /* MainTabViewController.xib */; };
+		0415A21526A5579300E5C2CB /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0415A21426A5579300E5C2CB /* MainTabBarViewController.swift */; };
 		0415A21926A5608300E5C2CB /* TweetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0415A21826A5608300E5C2CB /* TweetsViewController.swift */; };
 		0415A21B26A560BD00E5C2CB /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0415A21A26A560BD00E5C2CB /* RecordViewController.swift */; };
 		0415A21D26A5610800E5C2CB /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0415A21C26A5610800E5C2CB /* SummaryViewController.swift */; };
+		0415A22026A5818700E5C2CB /* TweetsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0415A21F26A5818700E5C2CB /* TweetsViewController.xib */; };
+		0415A22226A583A000E5C2CB /* SummaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0415A22126A583A000E5C2CB /* SummaryViewController.xib */; };
+		0415A22B26A6C38D00E5C2CB /* RecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0415A22A26A6C38D00E5C2CB /* RecordViewController.xib */; };
+		0415A23326A6D4B200E5C2CB /* TweetsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0415A23226A6D4B200E5C2CB /* TweetsTableViewCell.xib */; };
+		0415A23526A6D4CB00E5C2CB /* TweetsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0415A23426A6D4CB00E5C2CB /* TweetsTableViewCell.swift */; };
 		75BDFED6B815A26E2E156DE0 /* Pods_FirstPhaseByRxSwift_FirstPhaseByRxSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D12AB3DFC212392C33A66B84 /* Pods_FirstPhaseByRxSwift_FirstPhaseByRxSwiftUITests.framework */; };
 		AC417FD3641FAFBA6DC75D81 /* Pods_FirstPhaseByRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908A5780DB653842DFD8296D /* Pods_FirstPhaseByRxSwift.framework */; };
 		DAC0DFC2D814972C00D61407 /* Pods_FirstPhaseByRxSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D47929A8A8D83854A11E8CAA /* Pods_FirstPhaseByRxSwiftTests.framework */; };
@@ -57,11 +61,15 @@
 		0415A1FF26A5540700E5C2CB /* FirstPhaseByRxSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPhaseByRxSwiftUITests.swift; sourceTree = "<group>"; };
 		0415A20126A5540700E5C2CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0415A20D26A5551600E5C2CB /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
-		0415A21426A5579300E5C2CB /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
-		0415A21626A557CB00E5C2CB /* MainTabViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTabViewController.xib; sourceTree = "<group>"; };
+		0415A21426A5579300E5C2CB /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		0415A21826A5608300E5C2CB /* TweetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetsViewController.swift; sourceTree = "<group>"; };
 		0415A21A26A560BD00E5C2CB /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
 		0415A21C26A5610800E5C2CB /* SummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
+		0415A21F26A5818700E5C2CB /* TweetsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TweetsViewController.xib; sourceTree = "<group>"; };
+		0415A22126A583A000E5C2CB /* SummaryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SummaryViewController.xib; sourceTree = "<group>"; };
+		0415A22A26A6C38D00E5C2CB /* RecordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecordViewController.xib; sourceTree = "<group>"; };
+		0415A23226A6D4B200E5C2CB /* TweetsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TweetsTableViewCell.xib; sourceTree = "<group>"; };
+		0415A23426A6D4CB00E5C2CB /* TweetsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetsTableViewCell.swift; sourceTree = "<group>"; };
 		259ECE5009369DE55B5E9B75 /* Pods-FirstPhaseByRxSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstPhaseByRxSwiftTests.release.xcconfig"; path = "Target Support Files/Pods-FirstPhaseByRxSwiftTests/Pods-FirstPhaseByRxSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		44A91B42790DF3A3A07389C2 /* Pods-FirstPhaseByRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstPhaseByRxSwift.debug.xcconfig"; path = "Target Support Files/Pods-FirstPhaseByRxSwift/Pods-FirstPhaseByRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		858F227891B1FA019A099347 /* Pods-FirstPhaseByRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstPhaseByRxSwift.release.xcconfig"; path = "Target Support Files/Pods-FirstPhaseByRxSwift/Pods-FirstPhaseByRxSwift.release.xcconfig"; sourceTree = "<group>"; };
@@ -163,11 +171,8 @@
 			children = (
 				0415A20D26A5551600E5C2CB /* ViewController.xib */,
 				0415A1E126A5540400E5C2CB /* ViewController.swift */,
-				0415A21426A5579300E5C2CB /* MainTabViewController.swift */,
-				0415A21626A557CB00E5C2CB /* MainTabViewController.xib */,
-				0415A21826A5608300E5C2CB /* TweetsViewController.swift */,
-				0415A21C26A5610800E5C2CB /* SummaryViewController.swift */,
-				0415A21A26A560BD00E5C2CB /* RecordViewController.swift */,
+				0415A22F26A6D11C00E5C2CB /* Main */,
+				0415A23126A6D48700E5C2CB /* ViewParts */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -198,6 +203,45 @@
 			children = (
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		0415A21E26A5815C00E5C2CB /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				0415A21F26A5818700E5C2CB /* TweetsViewController.xib */,
+				0415A22126A583A000E5C2CB /* SummaryViewController.xib */,
+				0415A22A26A6C38D00E5C2CB /* RecordViewController.xib */,
+			);
+			path = xib;
+			sourceTree = "<group>";
+		};
+		0415A22E26A6D10300E5C2CB /* swift */ = {
+			isa = PBXGroup;
+			children = (
+				0415A21426A5579300E5C2CB /* MainTabBarViewController.swift */,
+				0415A21826A5608300E5C2CB /* TweetsViewController.swift */,
+				0415A21C26A5610800E5C2CB /* SummaryViewController.swift */,
+				0415A21A26A560BD00E5C2CB /* RecordViewController.swift */,
+			);
+			path = swift;
+			sourceTree = "<group>";
+		};
+		0415A22F26A6D11C00E5C2CB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0415A22E26A6D10300E5C2CB /* swift */,
+				0415A21E26A5815C00E5C2CB /* xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0415A23126A6D48700E5C2CB /* ViewParts */ = {
+			isa = PBXGroup;
+			children = (
+				0415A23226A6D4B200E5C2CB /* TweetsTableViewCell.xib */,
+				0415A23426A6D4CB00E5C2CB /* TweetsTableViewCell.swift */,
+			);
+			path = ViewParts;
 			sourceTree = "<group>";
 		};
 		195E2DBBBC7D74F081A8F2B2 /* Frameworks */ = {
@@ -332,10 +376,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0415A23326A6D4B200E5C2CB /* TweetsTableViewCell.xib in Resources */,
 				0415A1EA26A5540600E5C2CB /* LaunchScreen.storyboard in Resources */,
-				0415A21726A557CB00E5C2CB /* MainTabViewController.xib in Resources */,
+				0415A22226A583A000E5C2CB /* SummaryViewController.xib in Resources */,
+				0415A22026A5818700E5C2CB /* TweetsViewController.xib in Resources */,
 				0415A20E26A5551600E5C2CB /* ViewController.xib in Resources */,
 				0415A1E726A5540600E5C2CB /* Assets.xcassets in Resources */,
+				0415A22B26A6C38D00E5C2CB /* RecordViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,7 +529,8 @@
 			files = (
 				0415A21926A5608300E5C2CB /* TweetsViewController.swift in Sources */,
 				0415A1E226A5540400E5C2CB /* ViewController.swift in Sources */,
-				0415A21526A5579300E5C2CB /* MainTabViewController.swift in Sources */,
+				0415A21526A5579300E5C2CB /* MainTabBarViewController.swift in Sources */,
+				0415A23526A6D4CB00E5C2CB /* TweetsTableViewCell.swift in Sources */,
 				0415A21B26A560BD00E5C2CB /* RecordViewController.swift in Sources */,
 				0415A1DE26A5540400E5C2CB /* AppDelegate.swift in Sources */,
 				0415A21D26A5610800E5C2CB /* SummaryViewController.swift in Sources */,
