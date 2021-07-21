@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -16,17 +16,15 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="FNX-Mv-irN">
-                    <rect key="frame" x="0.0" y="100" width="414" height="796"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="FNX-Mv-irN">
+                    <rect key="frame" x="0.0" y="44" width="375" height="623"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </tableView>
-                <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3mz-60-oG6">
-                    <rect key="frame" x="0.0" y="25" width="414" height="44"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3mz-60-oG6">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                     <items>
                         <navigationItem title="Tweets" id="n2D-md-uT9">
                             <barButtonItem key="leftBarButtonItem" image="person.crop.circle" catalog="system" id="xpO-V8-Z97">
@@ -34,13 +32,24 @@
                                     <action selector="profileAndSettingClicked:" destination="-1" id="Q9g-bF-bar"/>
                                 </connections>
                             </barButtonItem>
+                            <barButtonItem key="rightBarButtonItem" title="Search" id="g7O-hv-a1I"/>
                         </navigationItem>
                     </items>
                 </navigationBar>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-            <point key="canvasLocation" x="37.681159420289859" y="89.732142857142847"/>
+            <constraints>
+                <constraint firstItem="FNX-Mv-irN" firstAttribute="top" secondItem="3mz-60-oG6" secondAttribute="bottom" id="Blx-a2-JKc"/>
+                <constraint firstItem="3mz-60-oG6" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Qlq-tF-GLh"/>
+                <constraint firstItem="3mz-60-oG6" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="WdY-WM-tbA"/>
+                <constraint firstItem="FNX-Mv-irN" firstAttribute="top" secondItem="3mz-60-oG6" secondAttribute="bottom" id="qQG-8h-zqw"/>
+                <constraint firstAttribute="bottom" secondItem="FNX-Mv-irN" secondAttribute="bottom" id="uXA-rF-XYD"/>
+                <constraint firstItem="FNX-Mv-irN" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="uY5-jg-sOl"/>
+                <constraint firstItem="3mz-60-oG6" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="vIA-aV-2Vl"/>
+                <constraint firstItem="FNX-Mv-irN" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="zWC-wt-5Ap"/>
+            </constraints>
+            <point key="canvasLocation" x="209" y="142"/>
         </view>
     </objects>
     <resources>

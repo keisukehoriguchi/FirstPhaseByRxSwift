@@ -10,6 +10,10 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SummaryViewController" customModule="FirstPhaseByRxSwift" customModuleProvider="target">
             <connections>
+                <outlet property="calendarView" destination="16x-wh-hbh" id="vtf-31-E61"/>
+                <outlet property="ratioGraphView" destination="pow-kg-aA9" id="WXn-IP-tnC"/>
+                <outlet property="summaryGraphView" destination="v8o-R5-q1j" id="fi2-aP-O91"/>
+                <outlet property="termSegment" destination="Smc-os-nZH" id="3LA-3f-2SE"/>
                 <outlet property="view" destination="iN0-l3-epB" id="Xgf-rk-i9A"/>
             </connections>
         </placeholder>
@@ -17,14 +21,52 @@
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EMg-HD-QWB">
+                    <rect key="frame" x="0.0" y="0.0" width="418" height="1360"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v8o-R5-q1j">
+                            <rect key="frame" x="28" y="99" width="362" height="338"/>
+                            <color key="backgroundColor" systemColor="systemBlueColor"/>
+                        </view>
+                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="16x-wh-hbh">
+                            <rect key="frame" x="28" y="458" width="362" height="338"/>
+                            <color key="backgroundColor" systemColor="systemBlueColor"/>
+                        </view>
+                        <segmentedControl opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Smc-os-nZH">
+                            <rect key="frame" x="105" y="52" width="209" height="32"/>
+                            <segments>
+                                <segment title="Weekly"/>
+                                <segment title="Monthly"/>
+                                <segment title="Total"/>
+                            </segments>
+                        </segmentedControl>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pow-kg-aA9">
+                            <rect key="frame" x="28" y="820" width="362" height="270"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="v8o-R5-q1j" firstAttribute="centerX" secondItem="EMg-HD-QWB" secondAttribute="centerX" id="JJt-YU-G5j"/>
+                        <constraint firstItem="Smc-os-nZH" firstAttribute="centerX" secondItem="EMg-HD-QWB" secondAttribute="centerX" id="fJY-lH-De1"/>
+                        <constraint firstItem="16x-wh-hbh" firstAttribute="centerX" secondItem="EMg-HD-QWB" secondAttribute="centerX" id="wwo-0p-DBd"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="eVf-zy-n1u"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="FyN-7q-xgZ"/>
+                </scrollView>
+            </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-            <point key="canvasLocation" x="38" y="90"/>
+            <point key="canvasLocation" x="37.681159420289859" y="89.732142857142847"/>
         </view>
     </objects>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

@@ -40,7 +40,12 @@ extension TweetsViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tweesTableView.dequeueReusableCell(withIdentifier: "tweetsCell") as! TweetsTableViewCell
+        cell.setUpTweetsTableViewCell()
         return cell
     }
+    
+//    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+//        return 110
+//    }
     
 }
