@@ -21,7 +21,7 @@ class TweetsViewController: UIViewController {
     }
     
     
-    func viewSetUp() {
+    private func viewSetUp() {
         tweesTableView.register(UINib(nibName: "TweetsTableViewCell", bundle: nil), forCellReuseIdentifier: "tweetsCell")
         tweesTableView.delegate = self
         tweesTableView.dataSource = self
