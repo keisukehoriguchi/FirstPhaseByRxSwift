@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0413B88D26B98A60009C01B6 /* CollectionViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413B88C26B98A60009C01B6 /* CollectionViewHeader.swift */; };
+		0413B88F26B98B80009C01B6 /* CollectionViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0413B88E26B98B80009C01B6 /* CollectionViewHeader.xib */; };
 		0415A1DE26A5540400E5C2CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0415A1DD26A5540400E5C2CB /* AppDelegate.swift */; };
 		0415A1E026A5540400E5C2CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0415A1DF26A5540400E5C2CB /* SceneDelegate.swift */; };
 		0415A1E226A5540400E5C2CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0415A1E126A5540400E5C2CB /* ViewController.swift */; };
@@ -50,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0413B88C26B98A60009C01B6 /* CollectionViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewHeader.swift; sourceTree = "<group>"; };
+		0413B88E26B98B80009C01B6 /* CollectionViewHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewHeader.xib; sourceTree = "<group>"; };
 		0415A1DA26A5540400E5C2CB /* FirstPhaseByRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstPhaseByRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0415A1DD26A5540400E5C2CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0415A1DF26A5540400E5C2CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -247,6 +251,8 @@
 			children = (
 				0415A23226A6D4B200E5C2CB /* TweetsTableViewCell.xib */,
 				0415A23426A6D4CB00E5C2CB /* TweetsTableViewCell.swift */,
+				0413B88C26B98A60009C01B6 /* CollectionViewHeader.swift */,
+				0413B88E26B98B80009C01B6 /* CollectionViewHeader.xib */,
 				04A88ABD26A940730089AED5 /* RecordCollectionViewCell.xib */,
 				04A88ABB26A940600089AED5 /* RecordCollectionViewCell.swift */,
 			);
@@ -390,6 +396,7 @@
 				04AA49A826B9323200AA6450 /* RecordViewController.xib in Resources */,
 				04AA49A426B4181600AA6450 /* GoogleService-Info.plist in Resources */,
 				0415A22226A583A000E5C2CB /* SummaryViewController.xib in Resources */,
+				0413B88F26B98B80009C01B6 /* CollectionViewHeader.xib in Resources */,
 				04A88ABE26A940730089AED5 /* RecordCollectionViewCell.xib in Resources */,
 				0415A22026A5818700E5C2CB /* TweetsViewController.xib in Resources */,
 				0415A20E26A5551600E5C2CB /* ViewController.xib in Resources */,
@@ -539,6 +546,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0415A21926A5608300E5C2CB /* TweetsViewController.swift in Sources */,
+				0413B88D26B98A60009C01B6 /* CollectionViewHeader.swift in Sources */,
 				0415A1E226A5540400E5C2CB /* ViewController.swift in Sources */,
 				0415A21526A5579300E5C2CB /* MainTabBarViewController.swift in Sources */,
 				0415A23526A6D4CB00E5C2CB /* TweetsTableViewCell.swift in Sources */,
